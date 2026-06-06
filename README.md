@@ -1,11 +1,10 @@
 # 🎮 Video Game Sales Analytics & Machine Learning
 
-## Project Overview
+## Overview
 
-This project analyzes historical video game sales data and develops machine learning models to understand sales patterns and predict game success.
+This project analyzes historical video game sales data and applies machine learning techniques to predict game success.
 
-The project covers:
-
+### Key Areas
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
@@ -15,39 +14,30 @@ The project covers:
 - Cross Validation
 - Stratified Validation
 - Threshold Tuning
-- Model Evaluation
-
----
 
 ## Business Problem
 
-Video game publishers invest millions into game development.
-
-Important questions include:
-
-- Which genres generate the highest sales?
-- Which platforms perform best?
-- Which publishers consistently produce successful games?
-- Can we predict whether a game will become a hit?
-
-This project answers those questions using machine learning and data analysis.
-
----
+Can we predict whether a video game will become a hit based on its platform, genre, publisher, and historical sales patterns?
 
 ## Dataset
 
-Video Game Sales Dataset
-
-Features include:
-
-- Rank
-- Name
+Video Game Sales Dataset containing:
 - Platform
-- Year
 - Genre
 - Publisher
-- NA Sales
-- EU Sales
-- JP Sales
-- Other Sales
+- Regional Sales
 - Global Sales
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- XGBoost
+- Matplotlib
+- Seaborn
+
+## Author
+
+Vignesh Krishna
